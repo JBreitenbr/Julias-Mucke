@@ -2,8 +2,8 @@ import './App.css'
 
 export default function App() {
   return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit
+    <main className="bg-teal-500">
+      Buhuu!
     </main>
   )
 }

@@ -1,9 +1,12 @@
 {
   "name": "react-javascript",
+  "homepage":"https://jbreitenbr.github.io/Julias-Mucke",
   "version": "1.0.0",
   "type": "module",
   "description": "React TypeScript on Replit, using Vite bundler",
-  "scripts": {
+  "scripts": { 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
@@ -19,5 +22,11 @@
     "react-dom": "^18.2.0",
     "typescript": "^5.2.2",
     "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "gh-pages": "^6.3.0",
+    "react-tooltip": "^5.29.1",
+    "tailwindcss": "^4.1.11"
   }
 }
